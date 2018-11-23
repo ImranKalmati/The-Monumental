@@ -6,26 +6,30 @@ body {
 }
 .nav-a {
 	text-transform: uppercase;
-	color: #fff;
+	color: #fff !important;
 	padding: 8px 7px;
 }
-.nav-a:hover,
+.nav-a:hover {
+	color: #ff9900 !important;
+}
 .pic-title,
 .links {
 	color: #ff9900;
 }
 .nav-section {
-	border: 1px 0px solid #505050;
+	border: 1px solid #505050;
 }
 .main-title {
 	font-size: 3.833rem;
 }
 .main-title,
-.about-title {
+.about-title,
+.logo-title {
 	color: #666666;
 }
 .pic-title,
-.about-title{
+.about-title,
+.logo-title {
 	text-transform: capitalize;
 }
 .main-para {

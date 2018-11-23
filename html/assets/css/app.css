@@ -1,0 +1,59 @@
+html {
+	font-size: 12px;
+}
+body {
+	background-color: #000000;
+}
+.nav-a {
+	text-transform: uppercase;
+	color: #fff;
+	padding: 8px 7px;
+}
+.nav-a:hover,
+.pic-title,
+.links {
+	color: #ff9900;
+}
+.nav-section {
+	border: 1px 0px solid #505050;
+}
+.main-title {
+	font-size: 3.833rem;
+}
+.main-title,
+.about-title {
+	color: #666666;
+}
+.pic-title,
+.about-title{
+	text-transform: capitalize;
+}
+.main-para {
+	color: #505050;
+	line-height: 2.75rem;
+}
+.pic-title {
+	font-size: 1.666rem;
+}
+.pic-title-box {
+	background-color: #161616;
+	padding: 20px 50px;
+}
+.main-para,
+.service-title {
+	font-size: 1.833rem;
+}
+.service-title {
+	color: #4a4a4a;
+}
+.service-para {
+	color: #999999;
+	line-height: 1.2rem;
+}
+.about-title {
+	font-size: 1.5rem;
+}
+.post-title,
+.about-oara {
+	color: #505050
+}

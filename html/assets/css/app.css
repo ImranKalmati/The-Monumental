@@ -1,3 +1,6 @@
+.container {
+	max-width: 1000px;
+}
 html {
 	font-size: 12px;
 }
@@ -29,7 +32,8 @@ body {
 }
 .pic-title,
 .about-title,
-.logo-title {
+.logo-title,
+.links {
 	text-transform: capitalize;
 }
 .main-para {
@@ -39,16 +43,13 @@ body {
 .pic-title {
 	font-size: 1.666rem;
 }
-.pic-title-box {
-	background-color: #161616;
-	padding: 20px 50px;
-}
 .main-para,
 .service-title {
 	font-size: 1.833rem;
 }
 .service-title {
 	color: #4a4a4a;
+	display: inline;
 }
 .service-para {
 	color: #999999;
@@ -56,8 +57,45 @@ body {
 }
 .about-title {
 	font-size: 1.5rem;
+	margin-bottom: 2.5rem;
 }
 .post-title,
-.about-oara {
-	color: #505050
+.about-para,
+.post-info {
+	color: #505050;
+}
+.title-box {
+	padding: 1.666rem 4.166rem;
+	background-color: #161616;
+}
+.service-section {
+	background-color: #fff;
+}
+.post-title,
+.links {
+	display: block;
+}
+.post-title {
+	font-size: 1.083rem;
+}
+.post-info {
+	font-size: 0.916rem;
+}
+.links-box,
+.social-box {
+	border-bottom: 1px solid #505050;
+}
+.links {
+	padding-top: 0.833rem;
+	padding-bottom: 0.583rem;
+}
+.img-box {
+	background-color: #252525;
+	border-radius: 1.083rem;
+	padding: 0.833rem;
+	margin-right: 0.5rem;
+}
+.social-box {
+	padding-bottom: 5px;
+	padding-top: 10px;
 }

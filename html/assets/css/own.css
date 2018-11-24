@@ -9,8 +9,10 @@
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
-.pt-pb-50 {
+.pt-50 {
 	padding-top: 50px;
+}
+.pb-50 {
 	padding-bottom: 50px;
 }
 .mb-25 {
@@ -34,6 +36,12 @@
 .mt-10 {
 	margin-top: 10px;
 }
+.pt-30 {
+	padding-top: 30px;
+}
+.pb-30 {
+	padding-bottom: 30px;
+}
 .pt-40 {
 	padding-top: 40px;
 }	
@@ -43,4 +51,16 @@
 .pt-pb-40 {
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+.mt-40 {
+	margin-top: 40px;
+}
+.mb-40 {
+	margin-bottom: 40px;
+}
+.mr-20 {
+	margin-right: 20px;
+}
+.mb-10 {
+	margin-bottom: 10px;
 }
